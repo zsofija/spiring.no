@@ -10,15 +10,15 @@ betaling via vipps, pris per kasse er 250,-
 
 også abonnement
 
-https://www.linkedin.com/in/olga-popovic-27196b65/
+<https://www.linkedin.com/in/olga-popovic-27196b65/>
 
-https://www.weareonna.no/
+<https://www.weareonna.no/>
 
-http://www.byspire.no/
+<http://www.byspire.no/>
 
 
 
-## stöttespiller:
+## Støttespillere:
 
 -  araktaka
 -  vaaghals
@@ -26,74 +26,76 @@ http://www.byspire.no/
 -  skansen kullt
 -  tratorria popolare.
 
-## video & bilder:
+## Video & Bilder:
 
- https://spiring.no/nyheter
-
-
-
-https://www.pexels.com/hu-hu/foto/elelmiszer-egeszseges-fu-fazek-2694050/
-
-https://www.pexels.com/hu-hu/foto/gyar-homaly-fa-orolt-401213/
-
-https://www.pexels.com/hu-hu/foto/elelmiszer-gyar-zold-friss-3296644/
-
-https://www.pexels.com/hu-hu/foto/elelmiszer-egeszseges-termeszet-kert-4159884/
+ <https://spiring.no/nyheter>
 
 
 
-https://pixabay.com/hu/photos/saatling-pal%C3%A1nta-rettichsprssen-4662630/
+<https://www.pexels.com/hu-hu/foto/elelmiszer-egeszseges-fu-fazek-2694050/>
 
-https://pixabay.com/hu/photos/zs%C3%A1zsa-%C3%BCzem-z%C3%B6ld-term%C3%A9szetes-term%C3%A9k-1258609/
+<https://www.pexels.com/hu-hu/foto/gyar-homaly-fa-orolt-401213/>
 
-https://pixabay.com/hu/photos/zs%C3%A1zsa-pal%C3%A1nta-bio-veg%C3%A1n-finom-4180655/
+<https://www.pexels.com/hu-hu/foto/elelmiszer-gyar-zold-friss-3296644/>
 
-https://pixabay.com/hu/photos/zs%C3%A1zsa-pal%C3%A1nta-n%C3%B6v%C3%A9ny-fejl%C5%91d%C5%91-cs%C3%ADra-253799/
+<https://www.pexels.com/hu-hu/foto/elelmiszer-egeszseges-termeszet-kert-4159884/>
 
-https://pixabay.com/hu/photos/kihajt-a-z%C3%B6lds%C3%A9geket-retek-3978521/
+
+
+<https://pixabay.com/hu/photos/saatling-pal%C3%A1nta-rettichsprssen-4662630/>
+
+<https://pixabay.com/hu/photos/zs%C3%A1zsa-%C3%BCzem-z%C3%B6ld-term%C3%A9szetes-term%C3%A9k-1258609/>
+
+<https://pixabay.com/hu/photos/zs%C3%A1zsa-pal%C3%A1nta-bio-veg%C3%A1n-finom-4180655/>
+
+<https://pixabay.com/hu/photos/zs%C3%A1zsa-pal%C3%A1nta-n%C3%B6v%C3%A9ny-fejl%C5%91d%C5%91-cs%C3%ADra-253799/>
+
+<https://pixabay.com/hu/photos/kihajt-a-z%C3%B6lds%C3%A9geket-retek-3978521/>
 
 
 
 ## Font
+sans Serif - smth like Cubano, Pilcrow Soft
 
-https://fonts.google.com/specimen/Chango?category=Display,Monospace&thickness=10&preview.text_type=custom
+<https://fonts.google.com/specimen/Chango?category=Display,Monospace&thickness=10&preview.text_type=custom>
 
 
 
-https://fonts.google.com/specimen/Londrina+Solid?preview.text_type=custom
+<https://fonts.google.com/specimen/Londrina+Solid?preview.text_type=custom>
 
-https://fonts.google.com/specimen/Fredoka+One?preview.text_type=custom
+<https://fonts.google.com/specimen/Fredoka+One?preview.text_type=custom>
 
-https://fonts.google.com/specimen/Potta+One?preview.text_type=custom
+<https://fonts.google.com/specimen/Potta+One?preview.text_type=custom>
 
-https://fonts.google.com/specimen/El+Messiri?preview.text_type=custom
+<https://fonts.google.com/specimen/El+Messiri?preview.text_type=custom>
 
-https://fonts.google.com/specimen/Allan?preview.text_type=custom
+<https://fonts.google.com/specimen/Allan?preview.text_type=custom>
 
-https://fonts.google.com/specimen/Fredericka+the+Great?preview.text_type=custom
+<https://fonts.google.com/specimen/Fredericka+the+Great?preview.text_type=custom>
 
-https://fonts.google.com/specimen/Poller+One?preview.text_type=custom
+<https://fonts.google.com/specimen/Poller+One?preview.text_type=custom>
 
 
 
 ##### logo?
 
- https://fonts.google.com/specimen/Mansalva?preview.text_type=custom&preview.text=spiring.no
+<https://fonts.google.com/specimen/Mansalva?preview.text_type=custom&preview.text=spiring.no>
 
-https://fonts.google.com/specimen/Barrio?preview.text_type=custom&preview.text=spiring.no
+<https://fonts.google.com/specimen/Barrio?preview.text_type=custom&preview.text=spiring.no>
 
-https://fonts.google.com/specimen/Kirang+Haerang?preview.text_type=custom&preview.text=SPIRING.no
+<https://fonts.google.com/specimen/Kirang+Haerang?preview.text_type=custom&preview.text=SPIRING.no>
 
-https://fonts.google.com/specimen/Major+Mono+Display?preview.text_type=custom&preview.text=SPIRING.no
+<https://fonts.google.com/specimen/Major+Mono+Display?preview.text_type=custom&preview.text=SPIRING.no>
 
-https://fonts.google.com/specimen/MuseoModerno?preview.text_type=custom&preview.text=SPIRING.no
+<https://fonts.google.com/specimen/MuseoModerno?preview.text_type=custom&preview.text=SPIRING.no>
 
-## Colorpalette 
+## Color palettes
+greens! like hsl(169, 71%, 36%) rgb(27, 156, 132)
 
-https://coolors.co/2c6e49-4c956c-fefee3-ffc9b9-d68c45
+<https://coolors.co/2c6e49-4c956c-fefee3-ffc9b9-d68c45>
 
-https://coolors.co/037171-f4e76e-f7fe72-8ff7a7-a1d2ce
+<https://coolors.co/037171-f4e76e-f7fe72-8ff7a7-a1d2ce>
 
-https://coolors.co/034732-008148-c6c013-c44900-ffffff
+<https://coolors.co/034732-008148-c6c013-c44900-ffffff>
 
-https://coolors.co/034732-008148-c6c013-f1fffa-d95d39
+<https://coolors.co/034732-008148-c6c013-f1fffa-d95d39>
