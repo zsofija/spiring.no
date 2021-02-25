@@ -38,17 +38,9 @@ også abonnement
 
 <https://www.pexels.com/hu-hu/foto/elelmiszer-gyar-zold-friss-3296644/>
 
-<https://www.pexels.com/hu-hu/foto/elelmiszer-egeszseges-termeszet-kert-4159884/>
-
 
 
 <https://pixabay.com/hu/photos/saatling-pal%C3%A1nta-rettichsprssen-4662630/>
-
-<https://pixabay.com/hu/photos/zs%C3%A1zsa-%C3%BCzem-z%C3%B6ld-term%C3%A9szetes-term%C3%A9k-1258609/>
-
-<https://pixabay.com/hu/photos/zs%C3%A1zsa-pal%C3%A1nta-bio-veg%C3%A1n-finom-4180655/>
-
-<https://pixabay.com/hu/photos/zs%C3%A1zsa-pal%C3%A1nta-n%C3%B6v%C3%A9ny-fejl%C5%91d%C5%91-cs%C3%ADra-253799/>
 
 <https://pixabay.com/hu/photos/kihajt-a-z%C3%B6lds%C3%A9geket-retek-3978521/>
 
@@ -64,18 +56,6 @@ sans Serif - smth like Cubano, Pilcrow Soft
 <https://fonts.google.com/specimen/Londrina+Solid?preview.text_type=custom>
 
 <https://fonts.google.com/specimen/Fredoka+One?preview.text_type=custom>
-
-<https://fonts.google.com/specimen/Potta+One?preview.text_type=custom>
-
-<https://fonts.google.com/specimen/El+Messiri?preview.text_type=custom>
-
-<https://fonts.google.com/specimen/Allan?preview.text_type=custom>
-
-<https://fonts.google.com/specimen/Fredericka+the+Great?preview.text_type=custom>
-
-<https://fonts.google.com/specimen/Poller+One?preview.text_type=custom>
-
-
 
 ##### logo?
 

@@ -1,0 +1,476 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+/*Fonts and colors*/
+header {
+    background-color: #013535;
+}
+
+h1 {
+    font-family: 'Chango', cursive;
+    font-size: 60px;
+    font-weight: 900;
+    color: #F4E76E;
+}
+.highlight {
+    color: #b8cf76;
+}
+h2 {
+    color: #FEFEE3;
+    font-family: 'Londrina Solid', cursive;
+}
+h3 {
+    font-family: 'Londrina Solid', cursive;
+}
+p {
+    font-family: 'Londrina Solid', cursive;
+    color: #013535;
+}
+.values h2 {
+    font-family: 'Londrina Solid', cursive;
+    color: #013535;
+}
+h4 {
+    font-family: 'Londrina Solid', cursive;
+    color: #F4E76E;
+}
+.subheading h3 {
+    font-size: 40px;
+    color: #0B3142;
+}
+
+
+
+/* Custom style */
+#logo {
+    height: 40px;
+}
+
+.heroe-image {
+    padding-top: 2.5em;
+    padding-left: 2.5em;
+    border-radius: 64% 36% 70% 30% / 43% 52% 48% 57%;
+    filter: drop-shadow(30px 10px 4px #002e2e);
+}
+
+.CTA {
+    padding-top: 2.5em;
+}
+
+.button {
+    color: #013535;
+    font-family: 'Londrina Solid', cursive;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    background-color: #F4E76E;
+    border: 1px solid rgb(185, 67, 147);
+    border-radius: 30px;
+    padding: 10px 15px; /* internal space top-bottom left-right*/
+    font-weight: bolder;
+    opacity: 0.9;
+    
+}
+.button:hover {
+    opacity: 1;
+    text-decoration: none;
+    color: #013535;
+    background-color: #f4e76e;
+}
+.values {
+    padding-top: 2.5em;
+    padding-bottom: 3em;
+    
+}
+
+.social-proof {
+    height: 500px;
+    background: rgb(244,231,110);
+    background: linear-gradient(180deg, rgba(244,231,110,1) 0%, rgba(244,231,110,1) 40%, rgba(255,255,255,1) 100%); 
+}
+.logos {
+    width: 150px;
+}
+#blakors {
+    height: 60px;
+}
+#arakataka {
+    width: 100px; 
+    height: 100px;
+}
+#realmat {
+    width: 100px; 
+    height: 100px;
+}
+
+.footer {
+    
+    background-color: #0B3142; /*C6C013; 0F5257*/ 
+    padding: 1.5rem;
+}
+.social-media {
+    width: 50px;
+}
+
+.footer p {
+    font-size: 14px;
+    font-weight: bolder;
+    color: rgb(254, 254, 227);
+    opacity: 0.7;
+    padding-top: 1.5rem;
+}
+
+/* Shape divider */
+
+.custom-shape-divider-bottom-1614095073 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1614095073 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 221px;
+}
+
+.custom-shape-divider-bottom-1614095073 .shape-fill {
+    fill: #FFFFFF;
+}
+
+
+
+.custom-shape-divider-top-1614198410 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1614198410 svg {
+    position: relative;
+    display: block;
+    width: calc(157% + 1.3px);
+    height: 208px;
+}
+
+.custom-shape-divider-top-1614198410 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/* Cards CSS */
+
+.cards
+{
+	position: relative;
+	width: 1200px;
+	height: 200px; /*300px*/
+	margin: 140px auto; /*240px*/
+    margin-top: 40px !important;
+    
+
+}
+.cards .box
+{
+	position: relative;
+	width: calc(400px - 30px);
+	height: calc(300px - 30px);
+    background-color: #b8cf76;/*#9fb3b3;*/
+	float: left;
+	margin: 15px;
+	box-sizing: border-box;
+    border-radius: 10px;
+}
+.cards .box .icon
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background:  #406767;
+	transition: 0.5s;
+	z-index: 1;
+}
+.cards .box:hover .icon
+{
+	top: 20px;
+	left: calc(50% - 40px);
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+.cards .box .icon .fa
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 80px;
+	transition: 0.5s;
+	color: #fff;
+
+}
+.cards .box:hover .icon .fa
+{
+	font-size: 40px;
+
+}
+.cards .box .content
+{
+	position: absolute;
+	top: 100px;
+	height: calc(100% - 100px);
+	text-align: center;
+	padding: 20px;
+	box-sizing: border-box;
+	transition: 0.5s;
+}
+.cards .box .content h3
+{
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	font-size: 24;
+}
+.cards .box .content p
+{
+	margin: 0;
+	padding: 0;
+	color: 0;
+
+}
+
+/* Media Queries */
+
+@media only screen and (max-width : 320px) {
+    h1 {
+         font-size: 38px;
+         font-weight: 600;
+         padding-top: 0.5em;
+    }
+
+    h2 {
+        font-size: 21px;
+        padding-top: 0.5em;
+    }
+    .button {
+        font-size: 16px;
+    }
+    .CTA {
+        padding-top: 1.2em;
+    }
+
+    .heroe-image {
+        padding-bottom: 1.5em;
+        padding-left: 0;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+    .values {
+        padding-top: 1.2em;
+        padding-bottom: 0.8em;
+    }
+    .values h2 {
+        font-size: 21px;
+    }
+
+    .subheading {
+        padding-bottom: 1.2rem;
+    }
+
+    .subheading h3 {
+        font-size: 21px;
+    }
+
+    .logos {
+        width: 60px;
+    }
+    #blakors {
+        height: 40px;
+    }
+    #arakataka {
+        width: 50px; 
+        height: 50px;
+    }
+    #realmat {
+        width: 50px; 
+        height: 50px;
+    }
+
+    .social-proof {
+        height: 280px;
+    } 
+
+    .social-media {
+        width: 30px;
+    }
+
+
+    .footer p {
+        font-size: 9px;
+
+    }
+
+    .cards {
+        height: 1000px;
+        width: auto;
+        display: grid;
+        grid-template-columns: repeat (1fr, 1fr, 1fr);
+        grid-gap: 10px;
+        justify-items: center;
+        
+    }
+    .cards .box {
+	width: 80%;
+	height: calc(400px - 70px);
+    }
+
+    .custom-shape-divider-bottom-1614095073 svg {
+        position: relative;
+        display: block;
+        width: calc(100% + 1.3px);
+        height: 50px;
+    }
+
+    .custom-shape-divider-top-1614198410 svg {
+        position: relative;
+        display: block;
+        width: calc(157% + 1.3px);
+        height: 50px;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 980px) {
+    .header-content {
+        padding-top: 3em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .heroe-image {
+        padding-bottom: 2.5em;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
+    .cards {
+        height: 1000px;
+        width: auto;
+        display: grid;
+        grid-template-columns: repeat (1fr, 1fr, 1fr);
+        grid-gap: 10px;
+        justify-items: center;
+        
+    }
+    .cards .box {
+	width: 350px;
+	height: calc(400px - 70px);
+    }
+
+
+    .custom-shape-divider-bottom-1614095073 svg {
+        position: relative;
+        display: block;
+        width: calc(100% + 1.3px);
+        height: 160px;
+    } 
+    .h2 {
+        font-size: 32px;
+    }
+    .subheading {
+        padding-bottom: 1.2rem;
+    }
+    .subheading h3 {
+        font-size: 32px;
+    }
+    .logos {
+        width: 90px;
+    }
+    .social-proof {
+    } 
+
+    #blakors {
+        height: 50px;
+    }
+    #arakataka {
+        width: 80px; 
+        height: 80px;
+    }
+    #realmat {
+        width: 80px; 
+        height: 80px;
+    }
+
+    .social-media {
+        width: 40px;
+    }
+
+    .footer p {
+        font-size: 12px;
+
+    }
+}    
+
+/* Landscape */
+@media(max-height: 500px) {
+     
+    h1 {
+        font-size: 40px;
+        font-weight: 600;
+        padding-top: 0.2em;
+   }
+
+   h2 {
+       font-size: 21px;
+
+   }
+   .button {
+       font-size: 16px;
+       
+   }
+   .CTA {
+       padding-top: 1.2em;
+       display: flex;
+       justify-content: center;
+   }
+
+   .heroe-image {
+       padding-bottom: 1.5em;
+       padding-left: 0;
+       width: 80%;
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+   
+   }
+   .custom-shape-divider-bottom-1614095073 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 50px;
+    }
+    .custom-shape-divider-top-1614198410 svg {
+        position: relative;
+        display: block;
+        width: calc(157% + 1.3px);
+        height: 50px;
+    }
+    .social-proof {
+        height: 280px;
+    } 
+}
