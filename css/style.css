@@ -37,7 +37,7 @@ h4 {
     color: #F4E76E;
 }
 .subheading h3 {
-    font-size: 40px;
+    font-size: 32px;
     color: #0B3142;
 }
 
@@ -177,7 +177,6 @@ h4 {
 	margin: 140px auto; /*240px*/
     margin-top: 40px !important;
     
-
 }
 .cards .box
 {
@@ -252,7 +251,7 @@ h4 {
 
 /* Media Queries */
 
-@media only screen and (max-width : 320px) {
+@media only screen and (max-width : 576px) {
     h1 {
          font-size: 38px;
          font-weight: 600;
@@ -273,6 +272,7 @@ h4 {
     .heroe-image {
         padding-bottom: 1.5em;
         padding-left: 0;
+        width: 90%;
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -352,7 +352,14 @@ h4 {
     }
 }
 
-@media screen and (min-width: 321px) and (max-width: 980px) {
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+    h1 {
+        font-size: 56px;
+    }
+    h2 {
+        font-size: 28px;
+        
+    }
     .header-content {
         padding-top: 3em;
         display: flex;
@@ -362,10 +369,19 @@ h4 {
 
     .heroe-image {
         padding-bottom: 2.5em;
+        padding-left: 0;
+        width: 540px;
         display: block;
         margin-left: auto;
         margin-right: auto;
         
+    }
+    .header-content {
+        padding-bottom: 1.4em;
+    }
+
+    .values h2 {
+        font-size: 28px;
     }
 
     .cards {
@@ -387,16 +403,20 @@ h4 {
         position: relative;
         display: block;
         width: calc(100% + 1.3px);
-        height: 160px;
+        height: 130px;
     } 
-    .h2 {
-        font-size: 32px;
+    .custom-shape-divider-top-1614198410 svg {
+        position: relative;
+        display: block;
+        width: calc(157% + 1.3px);
+        height: 130px;
     }
+    
     .subheading {
         padding-bottom: 1.2rem;
     }
     .subheading h3 {
-        font-size: 32px;
+        font-size: 28px;
     }
     .logos {
         width: 90px;
@@ -426,8 +446,55 @@ h4 {
     }
 }    
 
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    h1 {
+        font-size: 56px;
+        padding-top: 0.6em;
+    }
+    .CTA {
+        padding-bottom: 1.4em;
+    }
+    .header-content {
+        padding-bottom: 1.4em;
+    }
+
+    .custom-shape-divider-bottom-1614095073 svg {
+        position: relative;
+        display: block;
+        width: calc(100% + 1.3px);
+        height: 150px;
+    } 
+    .cards {
+	position: relative;
+	width: auto;
+	height: 200px; /*300px*/
+	margin: 180px auto; /*240px*/
+    display: flex;
+    justify-content: center;
+    
+    }
+    .cards .box {
+        width: 300px;
+        height: calc(380px - 70px);
+    }
+
+    .custom-shape-divider-top-1614198410 svg {
+        position: relative;
+        display: block;
+        width: calc(157% + 1.3px);
+        height: 170px;
+    }
+
+    .subheading h3 {
+        font-size: 2em;
+    }
+    .footer p {
+        font-size: 14px;
+    }    
+}
+
 /* Landscape */
-@media(max-height: 500px) {
+@media screen and (max-height: 500px) {
      
     h1 {
         font-size: 40px;
