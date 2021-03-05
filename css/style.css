@@ -40,7 +40,11 @@ h4 {
     font-size: 32px;
     color: #0B3142;
 }
-
+ol {
+    font-family: 'Londrina Solid', cursive;
+    color: #F4E76E;  
+    font-size: 1.5rem;
+}
 
 
 /* Custom style */
@@ -56,10 +60,18 @@ h4 {
 }
 
 .CTA {
-    padding-top: 2.5em;
+    padding-top: 1.2em;
+    
 }
 
-.button {
+.QR-kode {
+    width: 120px;
+    margin-left: 70px;
+    margin-right: auto;
+    display: block;
+}
+
+/*.button {
     color: #013535;
     font-family: 'Londrina Solid', cursive;
     font-size: 20px;
@@ -68,17 +80,17 @@ h4 {
     background-color: #F4E76E;
     border: 1px solid rgb(185, 67, 147);
     border-radius: 30px;
-    padding: 10px 15px; /* internal space top-bottom left-right*/
+    padding: 10px 15px;
     font-weight: bolder;
     opacity: 0.9;
     
-}
-.button:hover {
+}*/
+/*.button:hover {
     opacity: 1;
     text-decoration: none;
     color: #013535;
     background-color: #f4e76e;
-}
+}*/
 .values {
     padding-top: 2.5em;
     padding-bottom: 3em;
@@ -200,14 +212,8 @@ h4 {
 	transition: 0.5s;
 	z-index: 1;
 }
-.cards .box:hover .icon
-{
-	top: 20px;
-	left: calc(50% - 40px);
-	width: 80px;
-	height: 80px;
-	border-radius: 50%;
-}
+/*.cards .box:hover .icon*/
+
 .cards .box .icon .fa
 {
 	position: absolute;
@@ -219,11 +225,8 @@ h4 {
 	color: #fff;
 
 }
-.cards .box:hover .icon .fa
-{
-	font-size: 40px;
+/*.cards .box:hover .icon .fa*/
 
-}
 .cards .box .content
 {
 	position: absolute;
@@ -250,8 +253,26 @@ h4 {
 }
 
 /* Media Queries */
+@media (hover: hover) and (pointer: fine) {
+    .cards .box:hover .icon {
+	top: 20px;
+	left: calc(50% - 40px);
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+    .cards .box:hover .icon .fa {
+	font-size: 40px;
+}
 
-@media only screen and (max-width : 576px) {
+}
+  
+
+@media only screen and (max-width: 576px) {
+    #logo {
+        height: 25px;
+    }
+
     h1 {
          font-size: 38px;
          font-weight: 600;
@@ -260,18 +281,30 @@ h4 {
 
     h2 {
         font-size: 21px;
-        padding-top: 0.5em;
+        padding-top: 0.2em;
     }
-    .button {
+
+    ol, h4 {
+        font-size: 18px;
+    }
+    /*.button {
         font-size: 16px;
-    }
+    }*/
     .CTA {
-        padding-top: 1.2em;
+        padding-top: 0.8em;
+    }
+    .QR-kode {
+        width: 90px;
+        height: 90px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
     }
 
     .heroe-image {
         padding-bottom: 1.5em;
         padding-left: 0;
+        padding-top: 0.2em;
         width: 90%;
         display: block;
         margin-left: auto;
@@ -333,8 +366,19 @@ h4 {
         
     }
     .cards .box {
-	width: 80%;
-	height: calc(400px - 70px);
+	    width: 80%;
+	    height: calc(400px - 70px);
+    }
+    .cards .box .icon {
+        top: 20px;
+        left: calc(50% - 40px);
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+    }
+
+    .cards .box .icon .fa {
+        font-size: 40px;
     }
 
     .custom-shape-divider-bottom-1614095073 svg {
@@ -360,11 +404,22 @@ h4 {
         font-size: 28px;
         
     }
+    ol, h4 {
+        font-size: 26px;
+    }
     .header-content {
         padding-top: 3em;
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    .QR-kode {
+        width: 120px;
+        height: 120px;
+        margin-left: auto;
+        margin-right: auto;
+        display:block;
     }
 
     .heroe-image {
@@ -397,7 +452,18 @@ h4 {
 	width: 350px;
 	height: calc(400px - 70px);
     }
+    
+    .cards .box .icon {
+        top: 20px;
+        left: calc(50% - 40px);
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+    }
 
+    .cards .box .icon .fa {
+        font-size: 40px;
+    }
 
     .custom-shape-divider-bottom-1614095073 svg {
         position: relative;
@@ -454,6 +520,13 @@ h4 {
     .CTA {
         padding-bottom: 1.4em;
     }
+    .QR-kode {
+        width: 120px;
+        height: 120px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
     .header-content {
         padding-bottom: 1.4em;
     }
@@ -475,7 +548,7 @@ h4 {
     }
     .cards .box {
         width: 300px;
-        height: calc(380px - 70px);
+        height: calc(380px - 40px);
     }
 
     .custom-shape-divider-top-1614198410 svg {
@@ -494,7 +567,7 @@ h4 {
 }
 
 /* Landscape */
-@media screen and (max-height: 500px) {
+@media only screen and (max-width: 576px) {
      
     h1 {
         font-size: 40px;
@@ -506,10 +579,11 @@ h4 {
        font-size: 21px;
 
    }
-   .button {
-       font-size: 16px;
-       
-   }
+   /*.button {
+       font-size: 16px;  
+   }*/
+
+   
    .CTA {
        padding-top: 1.2em;
        display: flex;

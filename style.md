@@ -72,6 +72,16 @@ sans Serif - smth like Cubano, Pilcrow Soft
 ## Color palettes
 greens! like hsl(169, 71%, 36%) rgb(27, 156, 132)
 
+
+
+dark green: \#0B3142
+
+light green: #b8cf76
+
+yellow: \#F4E76E
+
+purple: rgb(185, 67, 147)
+
 <https://coolors.co/2c6e49-4c956c-fefee3-ffc9b9-d68c45>
 
 <https://coolors.co/037171-f4e76e-f7fe72-8ff7a7-a1d2ce>

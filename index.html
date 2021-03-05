@@ -35,6 +35,34 @@
 </head>
 
 <body>
+ <!-- Load Facebook SDK for JavaScript -->
+ <div id="fb-root"></div>
+ <script>
+   window.fbAsyncInit = function() {
+     FB.init({
+       xfbml            : true,
+       version          : 'v10.0'
+     });
+   };
+
+   (function(d, s, id) {
+   var js, fjs = d.getElementsByTagName(s)[0];
+   if (d.getElementById(id)) return;
+   js = d.createElement(s); js.id = id;
+   js.src = 'https://connect.facebook.net/nb_NO/sdk/xfbml.customerchat.js';
+   fjs.parentNode.insertBefore(js, fjs);
+ }(document, 'script', 'facebook-jssdk'));</script>
+
+ <!-- Your Chat Plugin code -->
+ <div class="fb-customerchat"
+   attribution="setup_tool"
+   page_id="104722117687061"
+theme_color="#67b868"
+logged_in_greeting="Spiring.no hjelper tidligere rusavhengige ut i arbeid gjennom urbant landbruk"
+logged_out_greeting="Spiring.no hjelper tidligere rusavhengige ut i arbeid gjennom urbant landbruk">
+ </div> 
+
+ 
 
     <nav>
         <div class="container">
@@ -53,9 +81,14 @@
             <div class="row d-flex align-items-center header-content">
                 <div class="col-sm-12 col-lg-5 ">
                     <h1>Ferske spirer hjemme på kjøkkenet</h1>
-                    <h2>på 1-2-3! Vi produserer og selger fire typer spirer: reddik, brokkoli, solsikke og erter. Pris per kasse <span class="highlight">250,-</span></h2> <!--Alternativt tekst etter 1-2-3: Pynt måltidene dine med våre sunne og deilige spirer! Du kan velge blant fire typer spirer: reddik, brokkoli, solsikke og erter. Pris per kasse 249,--> 
+                    <h2>på 1-2-3! Vi produserer og selger fire typer spirer: reddik, brokkoli, solsikke og erter. Pris per porsjon <span class="highlight">55,-</span></h2> <!--Alternativt tekst etter 1-2-3: Pynt måltidene dine med våre sunne og deilige spirer! Du kan velge blant fire typer spirer: reddik, brokkoli, solsikke og erter. Pris per kasse 249,--> 
                     <div class="CTA">
-                        <a href="https://spiring.no/spirevipps" target="_blank" class="button">Bestill spirekasse</a>
+                        <ol>
+                            <li><h4>Scan QR-koden</h4></li>
+                            <li><h4>Betal med Vipps</h4></li>
+                            <li><h4>Send en melding på Facebook</h4></li>
+                        </ol>
+                        <img src="/images/spiring-qr-green.png" alt="QR-kode for Vipps" class="img-fluid QR-kode">  
                     </div>
                 </div>
                 <div class="col-sm-12 col-lg-7">
@@ -83,7 +116,7 @@
         <div class="container values">
             <div class="row d-flex align-items-center text-center">
                 <div class="col-sm-12">
-                    <h2>Ved å kjøpe spirekasser fra oss støtter du vårt viktige arbeid. Vi er et langsiktig
+                    <h2>Ved å kjøpe spirer fra oss støtter du vårt viktige arbeid. Vi er et langsiktig
                         samarbeidsprosjekt mellom Please Mind The Gap og Blå Kors.</h2>
                     <h2>Målet er å hindre tilbakefall til rusavhengighet gjennom lokal produksjon av spirer.</h2>
                 </div>
@@ -185,5 +218,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
         crossorigin="anonymous"></script>
+
 </body>
+
 </html>
