@@ -55,7 +55,7 @@ sans Serif - smth like Cubano, Pilcrow Soft
 
 <https://fonts.google.com/specimen/Londrina+Solid?preview.text_type=custom>
 
-<https://fonts.google.com/specimen/Fredoka+One?preview.text_type=custom>
+
 
 ##### logo?
 
@@ -71,6 +71,8 @@ sans Serif - smth like Cubano, Pilcrow Soft
 
 ## Color palettes
 greens! like hsl(169, 71%, 36%) rgb(27, 156, 132)
+
+light yellow: #FEFEE3;
 
 
 
@@ -89,3 +91,31 @@ purple: rgb(185, 67, 147)
 <https://coolors.co/034732-008148-c6c013-c44900-ffffff>
 
 <https://coolors.co/034732-008148-c6c013-f1fffa-d95d39>
+
+
+
+forside
+
+#fdf379
+
+headings
+
+<https://fonts.google.com/specimen/Fredoka+One?preview.text_type=custom>
+
+<https://fonts.google.com/specimen/Baloo+2?preview.text_type=custom>
+
+paragraphs
+
+<https://fonts.google.com/specimen/Josefin+Slab?preview.text_type=custom>
+
+<https://fonts.google.com/specimen/Karla?preview.text_type=custom>
+
+<https://fonts.google.com/specimen/Poppins?preview.text_type=custom>
+
+<https://fonts.google.com/specimen/Basic?preview.text_type=custom>
+
+?  <https://fonts.google.com/specimen/Poiret+One?preview.text_type=custom>
+
+<https://fonts.google.com/specimen/Abel?preview.text_type=custom>
+
+\#006d57
