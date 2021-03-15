@@ -752,14 +752,24 @@ ul {
     }
 
     /*Rest */
+    .about-us {
+        padding-bottom: 15em;
+    }
     .habilitering {
         padding-left: 0 !important;
         margin-left: 0 !important;
+        padding-top: 15em;
+        padding-bottom: 15em;
+        
+    }
+    .production {
+        padding-top: 15em;
+        padding-bottom: 15em;
     }
     .contribution {
         background:#0b4042;
-        padding-top: 10em;
-        padding-bottom: 10em;
+        padding-top: 15em;
+        padding-bottom: 15em;
         display: flex;
         flex-flow: row wrap;
     }
