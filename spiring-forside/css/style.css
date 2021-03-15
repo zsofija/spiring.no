@@ -762,17 +762,11 @@ ul {
         padding-bottom: 15em;
         
     }
-    .production {
+    .production, .contribution {
         padding-top: 15em;
         padding-bottom: 15em;
     }
-    .contribution {
-        background:#0b4042;
-        padding-top: 15em;
-        padding-bottom: 15em;
-        display: flex;
-        flex-flow: row wrap;
-    }
+
     .facebook-btn {
         flex-basis: 100%;
     } 
