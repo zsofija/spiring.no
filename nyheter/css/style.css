@@ -12,16 +12,13 @@ body {
     background: #042d33;
     transition: 400ms background-color;
 }
-.container {
+.container, #main {
     padding-left: 20%;
     padding-right: 20%;
     margin: 0 auto;
 }
 
-#main { flex: 1 0 auto;
-    padding-left: 20%;
-    padding-right: 20%;
-    margin: 0 auto; }
+#main { flex: 1 0 auto; }
 #header, #footer { flex: 1 0 auto; }
 
 /* Typography */
@@ -157,13 +154,6 @@ strong {
 ul {
     list-style: none; 
 }
-img {
-    object-fit: cover;
-    width: 100%;
-    height: auto;
-    max-width: 100%;
-    /*vertical-align: middle;*/
-}
 
 .cards {
     display: grid;
@@ -186,14 +176,14 @@ img {
     object-fit: cover;
     width: 100%;
     max-height: 320px;
-    min-height: 220px;
+    min-height: 260px;
     height: 100%;
     border-radius: 5px;
 }
     
 .card h2 {
     margin: 0;
-    padding-top: 0.5rem;
+    padding-top: 0.8rem;
     padding-bottom: 1rem;
     
 }
@@ -217,7 +207,7 @@ img {
 /*Footer */
 #footer {
     box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
-    box-shadow: inset -5em 1em #35575c;
+    box-shadow: inset -5em 0.7em #35575c;
     padding: 30px 0;
     flex-direction: row;
 }
@@ -226,6 +216,7 @@ img {
     text-align: right;
     padding: 1.2em 0;
 }
+
 
 /* Media Queries */
 /*Hover effects*/
@@ -295,24 +286,53 @@ img {
         text-align: left;
         font-size: 1.2em;
     }
-    h1 { font-size: 1.7rem;}
-    h3 { font-size: 1.3rem;}
+    h2 { font-size: 1.5rem;}
 
     #footer p {
         font-size: 0.8em;
     }
     
     /*Images */
-
+    .card img {
+        object-fit: cover;
+        width: 100%;
+        max-height: 280px;
+        min-height: 260px;
+        height: 100%;
+        border-radius: 5px;
+    }
     /* Rest*/
+
     #main {
-        padding-top: 2em;
-        padding-bottom: 5em;
+        padding-top: 1em;
+        padding-bottom: 3em;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 30px;
+
+    }
+    .card {
+        grid-template-columns: 100%;
+        background-color: transparent;
+        box-shadow: none;
+        border-bottom: 1px solid #b8cf76;
+        border-radius: 0;
+    }
+    .card footer p {
+        text-align: right; 
+    }
+    #last {
+        border-bottom: none;
     }
     
     #footer {
         text-align: left;
-        box-shadow: none;
+        box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+        box-shadow: inset 0 0.5em #35575c;
         background: #042d33;
     }
 }   
@@ -321,8 +341,8 @@ img {
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
 
     .container {
-        padding-left: 15%;
-        padding-right: 15%;
+        padding-left: 10%;
+        padding-right: 10%;
     } 
 
     /* SVG divider */
@@ -340,6 +360,9 @@ img {
         width: calc(134% + 1.3px);
         height: 42vh; /*350px;*/
     }
+    #hamnav {
+        padding-left: 15em;
+    }
     .logo img {
         height: 50px;
         width: auto;
@@ -351,8 +374,7 @@ img {
         font-size: 1.25em;
     }
     p {font-size: 1.25em;}
-    h1 { font-size: 1.85rem;}
-    h3 { font-size: 1.35rem;}
+    h2 { font-size: 1.65rem;}
 
     #hamitems a { 
         font-size: 1.15em;
@@ -366,18 +388,27 @@ img {
     }
 
     /* Images */
-    
+    .card img {
+        object-fit: cover;
+        width: 100%;
+        height: 280px;
+        border-radius: 5px;
+    }
 
     /* Rest*/
     #main {
-        padding-top: 6em;
-        padding-bottom: 6em;
+        padding-top: 5em;
+        padding-bottom: 5em;
+        padding-left: 5%;
+        padding-right: 5%;
     }
 
 
     #footer {
         box-shadow: none; 
-        background: #042d33;  
+        background: #042d33; 
+        box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+        box-shadow: inset 0 0.5em #35575c; 
     }
 
     
@@ -393,23 +424,27 @@ img {
         min-height: 85px;
         max-width: 100%;  
     }
-    .responsive-img {
-        max-width: 100%;
-        min-width: 580px;
-        height: auto;
-        max-height: none !important; 
+    .card img {
+        object-fit: cover;
+        width: 100%;
+        max-height: 420px;
+        height: 100%;
+        border-radius: 5px;
     }
+    
     
 
     /* Typography */
     #hamitems a {
         font-size: 1.7em;
     }
-    h1 { font-size: 3.2rem;}
-    h3 { font-size: 2.2rem;}
+    h2 { font-size: 2.5rem;}
 
     p, #main li {
         font-size: 1.75em; 
+    }
+    .card footer p {
+        font-size: 1.4em;
     }
     #footer p {
         font-size: 1.3em;
@@ -418,8 +453,7 @@ img {
         font-size: 1.4em;
         font-weight: bold;
     }
-    /* Rest */
-    
+
     
 }
 
