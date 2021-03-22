@@ -12,7 +12,7 @@ body {
     background: #042d33;
     transition: 400ms background-color;
 }
-.container, #main {
+.container {
     padding-left: 20%;
     padding-right: 20%;
     margin: 0 auto;
@@ -42,7 +42,7 @@ h2 {
     word-wrap: break-word;
     color: #c0e264;
 }
-h3 { font-size: 1.4rem; letter-spacing: 0.08em; margin-bottom: 0; padding-bottom:0;}
+h3 { font-size: 1.4rem; letter-spacing: 0.08em;}
 h4 { font-size: 1.1rem; }
 h5 { font-size: 1rem; }
 h6 { font-size: 1rem; font-weight: normal; font-style: italic; }
@@ -56,7 +56,7 @@ p, #main li {
     word-wrap: break-word;
 }
 a {
-    color: #b8cf76; ; /*#2EAE9B;*/
+    color: #b8cf76; /*#2EAE9B;*/
     text-decoration: none;
     -webkit-transition: color .2s ease-in;
             transition: color .2s ease-in;
@@ -209,7 +209,7 @@ ul {
     box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
     box-shadow: inset -5em 0.7em #35575c;
     padding: 30px 0;
-    flex-direction: row;
+    
 }
 
 #footer #hamnav {
@@ -306,6 +306,8 @@ ul {
     #main {
         padding-top: 1em;
         padding-bottom: 3em;
+    }
+    #main .container {
         padding-left: 3%;
         padding-right: 3%;
     }
@@ -399,6 +401,8 @@ ul {
     #main {
         padding-top: 5em;
         padding-bottom: 5em;
+    }
+    #main .container {
         padding-left: 5%;
         padding-right: 5%;
     }
