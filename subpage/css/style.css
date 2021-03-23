@@ -200,7 +200,7 @@ ol li::marker {
 }
 .row {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     align-items: center;
 }
 .column {
@@ -354,6 +354,7 @@ ol li::marker {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        padding-top: 1.5em;
     }
     .newshead {
         padding: 0; 
