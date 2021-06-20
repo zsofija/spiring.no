@@ -5,7 +5,7 @@
 3. Phase 3: I've coded a home page, a news page and an ordinary subpage from scrach
 4. Phase 4: As they were already using Twig template engine, I had to transform my code into a twig style template.
 
-[You can check-out the spiring-theme template on gitlab among my contributed projects](https://gitlab.com/jentekoderne/picothemes)
+[You can check-out the spiring-theme template on gitlab among my contributed projects](https://gitlab.com/zsofija)
 
 
 
